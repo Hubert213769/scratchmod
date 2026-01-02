@@ -31,7 +31,7 @@ class AIBlock {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                model: "llama3.2",   // ← zmień model jeśli chcesz
+                model: "deepseek-v3.1:671b-cloud",   // ← zmień model jeśli chcesz
                 prompt: text,
                 stream: false
             })
